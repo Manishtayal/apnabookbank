@@ -104,17 +104,17 @@ img{
     background-color: cornsilk;
     /* position: absolute; */
 }
-/* #aboutus{
-    text-align: right;
-} */
-.images{
-    position: relative;
+.images {
+    text-align: center;
 }
-.images .single{
-    height: 600px;
-    width: 600px;
+ .single img {
+    height: 70vh;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-}
+} 
 .arrow{
     position: fixed;
     cursor: pointer;
@@ -160,14 +160,19 @@ img{
     #btn2{
         left: 0px;
     }
+    /* .single img {
+        height: 70vh;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }  */
     }
-.single img{
-    height: 70vh;
-    width: 100%;
-} 
 #content #imag2{
     text-align: center;
     margin: auto;
 }
+
 
 
